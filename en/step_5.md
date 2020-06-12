@@ -41,7 +41,7 @@ Now, since you really only care about the few classifications that the model thi
 
 Still working at the end of your `predict_image` function, create a variable called `predictions` and then use this rather long TensorFlow function to take `prediction_result` and get the labels for the top 15 results.
 
-```python3
+```python
   predictions = tf.keras.applications.imagenet_utils.decode_predictions(prediction_result, top=15)
 ```
 
@@ -51,7 +51,7 @@ Still working at the end of your `predict_image` function, create a variable cal
 
 Finally, use the `print_predictions` function I provided to display the predicitons the model has made.
 
-```python3
+```python
   print_predictions(predictions)
 ```
 

@@ -5,7 +5,7 @@ The first thing you need to do is bring in the model you're going to use from th
 
 In the first empty code cell, create a model variable and load the VGG16 model from TensorFlow into that variable.
 
-```python3
+```python
 model = tf.keras.applications.VGG16()
 ```
 
@@ -16,7 +16,7 @@ Now that you have a model, you'll need to get an image for it to identify. I've 
 --- task ---
 
 In the second of the three empty code cells create a function called `predict_image` that takes `image_url` as an argument. Have it call `get_image_from_url`, passing the URL to it. Then have TensorFlow load the image and use Matplotlib to display it. 
-```python3
+```python
 def predict_image(image_url):
   image_path = get_image_from_url(image_url)
   
@@ -34,7 +34,7 @@ Notice that, at the same time as loading the image, you're tellling TensorFlow t
 
 In the third empty cell, add a call to `predict_image` and pass it the URL to our test image.
 
-```python3
+```python
 predict_image('https://i.ibb.co/Y2s0WH6/test-dog.jpg')
 ```
 
@@ -45,7 +45,9 @@ predict_image('https://i.ibb.co/Y2s0WH6/test-dog.jpg')
 title: About the photograph
 ---
 
-This is a lovely, and almost square, photograph of a dog by Chris Barber, which you can see on the Wikipedia page about dogs. We're able to reuse it here because he shared it under the [Creative Commons 2.0 Attribution](https://creativecommons.org/licenses/by/2.0/) license. Creative Commons Attribution licenses allow people to reuse others' work as long as they give credit. When you start producing your own art or code that you want to share online, you should think about how you want to license it too!
+This is a lovely, and almost square, photograph of a dog by Chris Barber, which you can see on the Wikipedia page about dogs. We're able to reuse it here because he shared it under the [Creative Commons 2.0 Attribution](https://creativecommons.org/licenses/by/2.0/) license. 
+
+Creative Commons Attribution licenses allow people to reuse others' work as long as they give credit. When you start producing your own art or code that you want to share online, you should think about how you want to license it too!
 
 --- /collapse ---
 
