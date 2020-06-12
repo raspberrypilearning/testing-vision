@@ -1,3 +1,5 @@
-## Step title
+## What is machine learning?
 
-+ Step content...
+'Machine learning' is what we call computer programs that get better through experience: testing a solution, measuring its success somehow, and then changing it and testing again, over and over, always trying to improve that measurement of success. While there are lots of different kinds of machine learning, this project focuses on **image classifciation** — taking an image and recognising which class, of a number of classes of image the computer has been taught to recognise, the supplied image is most likely to belong to.
+
+One of the most famous examples of this (which you'll build in a later project) can tell you whether a picture contains a cat, or a dog. The computer can do this because it has been shown hundreds, probably thousands, of examples of what cats and dogs look like. From these, it builds a **model** — a set of rules for how to decide that an image contains a dog or a cat. It's important to note an image classification model trained only on cats and dogs will *always* guess that something is either a cat or a dog. These models can't recognise things they haven't been trained to recognise, and they can't decide that none of those things is in the image they're asked to classify.

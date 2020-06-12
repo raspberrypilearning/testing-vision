@@ -3,36 +3,18 @@
 Add project description here. What will learners be making?
 
 ### What you will make
+You will create a Python function for testing a computer's recognition of an object by supplying a photograph of that object and getting back the computer's guess at what it is. This will be a useful tool for you in future projects, to test the models you create and to get the results of others' models when using them as part of an application.
 
---- no-print ---
-Add instructions for using the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+![Complete project](images/finished_project.png)
 
 --- collapse ---
 ---
 title: What you will need
 ---
-### Hardware
 
-+ Describe hardware here
-
-### Software
-
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ A computer
++ An internet connection
++ A Google account
 
 --- /collapse ---
 
@@ -41,8 +23,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ What machine learning is
++ What a 'model' is, in the context of machine learning
++ How the limitations of machine learning might impact your project
 
 --- /collapse ---
 
@@ -51,8 +34,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/testing-vision/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+[Here is a link to the resources for this project](http://rpf.io/testing-vision-go).
 
 --- /collapse ---
