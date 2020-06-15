@@ -8,6 +8,6 @@ Try loading a few different images into it to see what predictions it makes. You
 
 ![The imagebb link window, with 'direct links' selected and a link URL displayed in the text box below.](images/direct_links.png)
 
-You'll also have to make sure they're `.jpg` files, or modify the `get_image_from_url` function I supplied.
+You'll also have to make sure they're `.jpg` files, or modify the `get_image_from_url` function that was supplied with the notebook.
 
 --- /task ---
