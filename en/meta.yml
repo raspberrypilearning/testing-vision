@@ -11,5 +11,6 @@ steps:
   - title: Load your model and image
   - title: Use the model to predict an image
   - title: Experiment with your program
+    challenge: true
   - title: What's next?
 
