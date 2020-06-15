@@ -25,7 +25,7 @@ This notebook already has some code and text in it, to take care of a few things
 
 Before you start changing anything, make sure you save the notebook to your drive so you can keep your work! Choose `File > Save a copy in Drive` and sign in to your Google account if prompted.
 
-![The 'File' menu in Google Colab, with 'Save a copy in Drive' highlighted](images/save_to_drive.png)
+![The 'File' menu in Google Colab, with 'Save a copy in Drive' highlighted.](images/save_to_drive.png)
 
 --- /task ---
 
@@ -38,6 +38,8 @@ Check that you can run all the code in the notebook by going to the `Runtime` me
 --- /task ---
 
 You should see spinners appear in the code cells, and then see numbers appear in the sqare brackets to the side of the cells. These numbers indicate the oder in which the code was run. 
+
+![The number '1' in square brackets to the side of four lines of code which import libraries used in the project.](images/execution_order.png)
 
 You'll notice that the last three code cells — the empty ones — all have the same number as the last cell that actually contains code. This is because they're empty right now, so there was nothing new there to run.
 

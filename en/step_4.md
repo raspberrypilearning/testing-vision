@@ -17,6 +17,8 @@ Add code to the end of your `predict_image` function that uses the TensorFlow li
 
 If you want to see what the image looks like to your model, try printing out all those lists of numbers!
 
+![Lists of numbers in a Colab output cell.](images/numeric_image.png)
+
 Next, you need to ask your model for a prediction based on your image. Convenietly enough, this uses the `predict` method of your model:
 
 --- task ---
@@ -34,6 +36,8 @@ Add this line to the end of the `predict_image` function:
 --- /task ---
 
 If you print out the results the model has given back, you'll see that it's just lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes!
+
+![A small sample of the list of numbers the model returns.](images/numeric_predictions.png)
 
 Now, since you really only care about the few classifications that the model thinks are most likely — it's probably not confusing an image of a dog with one of a car, for example — the next thing to do is match up the highest of those prediction numbers with the labels for each of the categories. Luckily, yet again, there is a TensorFlow function for that!
 
@@ -58,5 +62,7 @@ Finally, use the `print_predictions` function provided in the notebook to displa
 Now run the code and see what your program predicts!
 
 --- /task ---
+
+![A numbered list of fifteen items, mostly dog breeds, each followed by a percentage. Number thirteen is different — 'tennis_ball 1.60%'. A picture of a small dog appears below the list.](images/finished_project.png)
 
 Notice how most of the predictions are sensible — different kinds of dog. However, look at number 13 — 'tennis ball' — that's a bit different! Why might the model think that's what it's seeing? It's probably because of the way models are trained: they're shown images to learn from, and then given other images to test their learning. The image you've asked it to identify here is a dog and some grass. Do you think it's likely some pictures of dogs might show them playing with balls? Or that pictures of balls might show them on grass? You can see how the classifier might get confused!

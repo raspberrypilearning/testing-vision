@@ -9,7 +9,7 @@ One of the most famous examples of this can tell you whether a picture contains 
 ### What you will make
 You will create a Python function for testing a computer's recognition of an object by supplying a photograph of that object and getting back the computer's guess at what it is. This will be a useful tool for you in future projects, to test the models you create and to get the results of others' models when using them as part of an application.
 
-![Complete project](images/finished_project.png)
+![The complete projec: A numbered list of fifteen items, mostly dog breeds, each followed by a percentage. Number thirteen is different — 'tennis_ball 1.60%'. A picture of a small dog appears below the list.](images/finished_project.png)
 
 --- collapse ---
 ---

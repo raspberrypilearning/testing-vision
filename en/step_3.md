@@ -56,3 +56,5 @@ Now run all the code by going to the `Runtime` menu and choosing `Run all`.
 
 You'll need to wait a few seconds for things to load, but you should see your image displayed in the notebook.
 --- /task ---
+
+![The output of the code: Text reading 'Downloading data from https://i.ibb.co/Y2s0WH6/test-dog.jpg 16384/16291 [==============================] - 0s 0us/step' followed by an image of a dog with numbered axies for the width and height of the image.](images/load_image.png)
