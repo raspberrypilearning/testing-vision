@@ -13,6 +13,18 @@ You will create a Python function for testing a computer's recognition of an obj
 
 --- collapse ---
 ---
+title: What you should already know
+---
+This project assumes you already know some Python. Specifically, it assumes you know how to use:
+
++ Variables
++ Lists
++ Functions, including creating your own function that accepts arguments
+
+--- /collapse ---
+
+--- collapse ---
+---
 title: What you will need
 ---
 
