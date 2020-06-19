@@ -1,7 +1,7 @@
 ## Load your model and image
-The first thing you need to do is bring in the model you're going to use from the `tensorflow` library. The model you'll be using is called VGG16 and it's very quick to get it into your program.
+The first thing you need to do is bring in the model you're going to use from the `tensorflow` library. If you remember from [the start of this project](1) the model is the set of rules the computer follows to complete a task — in this case a set of rules for deciding which object appears in an image. We call this decision classification, and we call each possible answer, in this case each type of object, a class. The model you'll be using is called VGG16. VGG16 is trained to recognise a wide variety of objects, and it's very quick to get into your program.
 
---- task ---
+
 
 In the first empty code cell, create a model variable and load the VGG16 model from TensorFlow into that variable.
 
@@ -35,7 +35,7 @@ Notice that, at the same time as loading the image, you're tellling TensorFlow t
 In the third empty cell, add a call to `predict_image` and pass it the URL to the test image.
 
 ```python
-predict_image('https://i.ibb.co/Y2s0WH6/test-dog.jpg')
+predict_image('https://dojo.soy/predict-dog')
 ```
 
 --- /task ---
@@ -57,4 +57,4 @@ Now run all the code by going to the `Runtime` menu and choosing `Run all`.
 You'll need to wait a few seconds for things to load, but you should see your image displayed in the notebook.
 --- /task ---
 
-![The output of the code: Text reading 'Downloading data from https://i.ibb.co/Y2s0WH6/test-dog.jpg 16384/16291 [==============================] - 0s 0us/step' followed by an image of a dog with numbered axies for the width and height of the image.](images/load_image.png)
+![The output of the code: Text reading 'Downloading data from https://dojo.soy/predict-dog 16384/16291 [==============================] - 0s 1us/step' followed by an image of a dog with numbered axies for the width and height of the image.](images/load_image.png)

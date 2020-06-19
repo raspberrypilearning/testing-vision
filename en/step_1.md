@@ -7,7 +7,7 @@
 One of the most famous examples of this can tell you whether a picture contains a cat, or a dog. The computer can do this because it has been shown thousands, of examples of what cats and dogs look like. From these, it builds a **model** — a set of rules for how to decide that an image contains a dog or a cat. It's important to note an image classification model trained only on cats and dogs will *always* guess that something is either a cat or a dog. These models can't recognise things they haven't been trained to recognise, and they can't decide that none of those things is in the image they're asked to classify.
 
 ### What you will make
-You will create a Python function for testing a computer's recognition of an object by supplying a photograph of that object and getting back the computer's guess at what it is. This will be a useful tool for you in future projects, to test the models you create and to get the results of others' models when using them as part of an application.
+You will create a Python function for testing a computer's recognition of an object by supplying a photograph of that object and getting back the computer's guess at what it is. This will be a useful tool for you in future projects, to test the models you create and to get the results of others' models when using them as part of an application. You will use Google Colab — an online tool for writing and running machine learning programs — to create this project.
 
 ![The complete projec: A numbered list of fifteen items, mostly dog breeds, each followed by a percentage. Number thirteen is different — 'tennis_ball 1.60%'. A picture of a small dog appears below the list.](images/finished_project.png)
 

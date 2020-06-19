@@ -1,19 +1,19 @@
 ## Get started with Google Colab
 
-Machine learning needs a lot of data, and a lot of computer processing power. Since most personal computers are going to be slow to train a model, and most internet connections might be slow to download large enough amounts of data to train it with, we're going to use Google Colab — an online tool for writing and running machine learning code with the Tensorflow library. This will let us use Google's much more powerful computers, and faster internet connection.
+Machine learning needs a lot of data, and a lot of computer processing power. Since most personal computers are going to be slow to train a model, and most internet connections might be slow to download large enough amounts of data to train it with, we're going to use Google Colab — an online tool for writing and running machine learning code with the TensorFlow library. This will let us use Google's much more powerful computers, and faster internet connection.
 
 --- task ---
 
 Make sure you have your Google account username and password.
 
 
-If you don't have an account, you may be able to use a parent's account, [they may be able to create one for you](https://support.google.com/families/answer/7103338) or, if you're old enough to do so under your country's laws, you can [create your own account](https://accounts.google.com/signup).
+If you don't have an account, [a parent may be able to create one for you](https://support.google.com/families/answer/7103338){:target="_blank"} or, if you're old enough to do so under your country's laws, you can [create your own account](https://accounts.google.com/signup){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Open the [starter](https://colab.research.google.com/drive/12KHBw8tn3s9NkcXXUK2MdhC9hLpHAxLs?usp=sharing) for this project in a new tab in your browser. 
+Open the [starter](https://colab.research.google.com/drive/12KHBw8tn3s9NkcXXUK2MdhC9hLpHAxLs?usp=sharing){:target="_blank"} for this project in a new tab in your browser. 
 
 --- /task ---
 
@@ -29,7 +29,7 @@ Before you start changing anything, make sure you save the notebook to your driv
 
 --- /task ---
 
-The code and text in the notebook is broken up into **cells**. Each code cell can be run separately, but you're not going to need to do that in this project. You're just going to need to run them all, in order.
+The code and text in the notebook is broken up into **cells**. Each code cell can be run separately, but you're not going to need to do that in this project. You're just going to need to run them all, in order. Don't worry about what they're doing just yet — they don't really do anything without your code — this is just to make sure that you're able to run code in your notebook for when you'll need to later.
 
 --- task ---
 

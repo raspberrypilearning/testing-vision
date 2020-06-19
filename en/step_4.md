@@ -35,7 +35,7 @@ Add this line to the end of the `predict_image` function:
 
 --- /task ---
 
-If you print out the results the model has given back, you'll see that it's just lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes!
+If you print out the results the model has given back, you'll see that it's just lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes! The model is splitting 100% across all of its guesses, with the ones it's more confident about getting large percentages and those it's less confident about getting little or nothing.
 
 ![A small sample of the list of numbers the model returns.](images/numeric_predictions.png)
 
@@ -65,4 +65,6 @@ Now run the code and see what your program predicts!
 
 ![A numbered list of fifteen items, mostly dog breeds, each followed by a percentage. Number thirteen is different — 'tennis_ball 1.60%'. A picture of a small dog appears below the list.](images/finished_project.png)
 
-Notice how most of the predictions are sensible — different kinds of dog. However, look at number 13 — 'tennis ball' — that's a bit different! Why might the model think that's what it's seeing? It's probably because of the way models are trained: they're shown images to learn from, and then given other images to test their learning. The image you've asked it to identify here is a dog and some grass. Do you think it's likely some pictures of dogs might show them playing with balls? Or that pictures of balls might show them on grass? You can see how the classifier might get confused!
+Number 1 is the guess the model thinks is most likely to be right, number 2 is its next best guess, and so on. You can see how the percentages associated with the guesses shrink as you move down the list. To see more of the predictions, and try to find the point where they hit 0%, change the value of `top` in your call to `decode_predictions` and re-run the program.
+
+Also, notice how most of the predictions are sensible — different kinds of dog.  However, look at number 13 — 'tennis ball' — that's a bit different! Why might the model think that's what it's seeing? It's probably because of the way models are trained: they're shown images to learn from, and then given other images to test their learning. The image you've asked it to identify here is a dog and some grass. Do you think it's likely some pictures of dogs might show them playing with balls? Or that pictures of balls might show them on grass? You can see how the classifier might get confused!
