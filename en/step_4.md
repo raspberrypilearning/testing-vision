@@ -8,7 +8,7 @@ However, machine learning models can't actually understand images the way humans
 
 Add code to the end of your `predict_image` function that uses the TensorFlow library to convert the image to an array (another name for a list) and then uses NumPy to reshape that array to exactly what the model expects:
 
-```python3
+```python
   image = tf.keras.preprocessing.image.img_to_array(image)
   image = np.expand_dims(image, axis=0)
 ```
@@ -29,7 +29,7 @@ Note that, as well as passing the model your image, you also have to tell it tha
 
 Add this line to the end of the `predict_image` function:
 
-```python3
+```python
   prediction_result = model.predict(image, batch_size=1)
 ```
 
