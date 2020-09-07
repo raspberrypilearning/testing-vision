@@ -16,7 +16,7 @@ Go to [drive.google.com](https://drive.google.com/) and drag an image from your 
 
 Once the image is in drive, right-click on it and choose 'Get shareable link'. 
 
-![](./images/get_shareable_link.png)
+![](images/get_shareable_link.png)
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Once the image is in drive, right-click on it and choose 'Get shareable link'.
 
 In the dialogue that opens, change who has permission to view the image from 'Restricted' to 'Anyone with the link'
 
-![](./images/link_permissions.png)
+![](images/link_permissions.png)
 
 --- /task ---
 
@@ -32,7 +32,7 @@ In the dialogue that opens, change who has permission to view the image from 'Re
 
 There should now be a link highlighted in the dialogue box.
 
-![](./images/link_updated.png)
+![](images/link_updated.png)
 
 In this link you can find the ID code for the file between `/d/` and `/view?usp=sharing`. It should look something like this:
 
