@@ -1,7 +1,7 @@
 ## Load your model and image
 The first thing you need to do is bring in the model you're going to use from the `tensorflow` library. If you remember from [the start of this project](1) the model is the set of rules the computer follows to complete a task — in this case a set of rules for deciding which object appears in an image. We call this decision classification, and we call each possible answer, in this case each type of object, a class. The model you'll be using is called VGG16. VGG16 is trained to recognise a wide variety of objects, and it's very quick to get into your program.
 
-
+--- task ---
 
 In the first empty code cell, create a model variable and load the VGG16 model from TensorFlow into that variable.
 
