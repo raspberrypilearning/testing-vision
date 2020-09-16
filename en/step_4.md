@@ -1,5 +1,4 @@
 # Use the model to predict an image
-
 Now that you can load your model and an image, it's time to pass the image to the model and see what it thinks it's looking at.
 
 However, machine learning models can't actually understand images the way humans do — they need to see everything as numbers. In the case of an image, that means the amount of red, green, and blue light in every pxiel of the image. So before you can give the image to your model, you'll need to convert it into lists of numbers. Luckily, the TensorFlow and NumPy libraries can help with this.
