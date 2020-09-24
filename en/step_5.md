@@ -60,6 +60,6 @@ https://drive.google.com/uc?export=download&id=1xunlhWWxA6e59gSL_gTo_CiZYBNqbMDy
 
 --- task ---
 
-Now paste the URL you have created into your program, and see what predictions it makes!
+Now paste the URL you have created as a parameter to the `predict_image` function call in your program, and see how your program classifies the imaage!
 
 --- /task ---

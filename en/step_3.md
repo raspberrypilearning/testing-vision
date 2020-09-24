@@ -11,15 +11,16 @@ model = tf.keras.applications.VGG16()
 
 --- /task ---
 
-Now that you have a model, you'll need to get an image for it to identify. A function, called `get_image_from_url`, has been provided for you to use as part of this. This function will fetch an image from a URL (a web address) and store it in your Google Drive. You need to include `get_image_from_url` in a larger function which will prepare that image, give it to the model, and then take the model's predictions and print them out into the notebook. For now, you're just going to get the image, load it up, and make sure it looks like you expect it to.
+Now that you have a model, you'll need to get an image for it to identify. A function, called `get_image_from_url`, has been provided for you to use as part of this. This function will fetch an image from a URL (a web address) and store it in your Google Drive. The functionl will then return the location of the stored iimage. You need to include `get_image_from_url` in a larger function which will prepare that image, give it to the model, and then take the model's classifications and print them out into the notebook. For now, you're just going to get the image, load it up, and make sure it looks like you expect it to.
 
 --- task ---
 
-In the second of the three empty code cells create a function called `predict_image` that takes `image_url` as an argument. Have it call `get_image_from_url`, passing the URL to it. Then have TensorFlow load the image and use Matplotlib to display it. 
+In the second of the three empty code cells create a function called `classify_image` that takes `image_url` as an parameter. Have it call `get_image_from_url`, passing the URL to it. Then have TensorFlow load the image and use Matplotlib to display it. 
 ```python
-def predict_image(image_url):
+def classify_image(image_url):
+  # Fetch the image from the URL
   image_path = get_image_from_url(image_url)
-  
+  # Prepare the image for use by the model
   image = tf.keras.preprocessing.image.load_img(image_path, target_size=(224, 224))
 
   plt.figure()
@@ -32,7 +33,7 @@ Notice that, at the same time as loading the image, you're tellling TensorFlow t
 
 --- task ---
 
-In the third empty cell, add a call to `predict_image` and pass it the URL to the test image.
+In the third empty cell, add a call to `classify_image` and pass it the URL to the test image.
 
 ```python
 predict_image('https://dojo.soy/predict-dog')
@@ -45,9 +46,9 @@ predict_image('https://dojo.soy/predict-dog')
 title: About the photograph
 ---
 
-This is an almost square, photograph of a dog by Chris Barber, which you can see on the Wikipedia page about dogs. We're able to reuse it here because he shared it under the [Creative Commons 2.0 Attribution](https://creativecommons.org/licenses/by/2.0/) license. 
+This is an almost square photograph of a dog by Chris Barber, which you can see on the Wikipedia page about dogs. We're able to reuse it here because he shared it under the [Creative Commons 2.0 Attribution](https://creativecommons.org/licenses/by/2.0/) license. 
 
-Creative Commons Attribution licenses allow people to reuse others' work as long as they give credit. When you start producing your own art or code that you want to share online, you should think about how you want to license it too!
+Creative Commons Attribution licenses allow people to reuse others' work as long as they give credit, like we're doing right here. When you start producing your own art or code that you want to share online, you should think about how you want to license it too!
 
 --- /collapse ---
 
@@ -58,3 +59,5 @@ You'll need to wait a few seconds for things to load, but you should see your im
 --- /task ---
 
 ![The output of the code: Text reading 'Downloading data from https://dojo.soy/predict-dog 16384/16291 [==============================] - 0s 1us/step' followed by an image of a dog with numbered axies for the width and height of the image.](images/load_image.png)
+
+--- save ---
