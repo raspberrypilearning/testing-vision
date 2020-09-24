@@ -47,13 +47,13 @@ Copy this ID.
 Use the ID you have just copied to complete this URL, inserting it in place of `[IMAGE ID]`:
 
 ```
-https://drive.google.com/uc?export=download&[IMAGE ID]
+https://drive.google.com/uc?export=download&id=[IMAGE ID]
 ```
 
 You should get something like this:
 
 ```
-https://drive.google.com/uc?export=download&1xunlhWWxA6e59gSL_gTo_CiZYBNqbMDy
+https://drive.google.com/uc?export=download&id=1xunlhWWxA6e59gSL_gTo_CiZYBNqbMDy
 ```
 
 --- /task ---
