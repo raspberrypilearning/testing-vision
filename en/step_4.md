@@ -5,7 +5,7 @@ However, machine learning models can't actually understand images the way humans
 
 --- task ---
 
-Add code to the end of your `classify_image` function that uses the TensorFlow library to convert the image to an array (another name for a list) and then uses NumPy to reshape that array to exactly what the model expects:
+Add code to the end of your `classify_image` function that uses the TensorFlow library to convert the image to an array (which is very similar to a list) and then uses NumPy to reshape that array to exactly what the model expects:
 
 ```python
   image = tf.keras.preprocessing.image.img_to_array(image)
@@ -14,7 +14,7 @@ Add code to the end of your `classify_image` function that uses the TensorFlow l
 
 --- /task ---
 
-If you want to see what the image looks like to your model, try printing out all those lists of numbers!
+If you want to see what the image looks like to your model, try printing out all those numbers!
 
 ![Lists of numbers in a Colab output cell.](images/numeric_image.png)
 
@@ -34,7 +34,7 @@ Add this line to the end of the `classify_image` function:
 
 --- /task ---
 
-If you print out the results the model has given back, you'll see that it's just lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes! The model is splitting 100% across all of its classes, with the ones it thinks are better matches for your image getting large percentages and those it's less confident about getting little or nothing.
+If you print out the results the model has given back, you'll see that it's just lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes! The model is splitting a total of 100% across all of its classes, with the ones it thinks are better matches for your image getting large percentages and those it's less confident about getting little or nothing.
 
 ![A small sample of the list of numbers the model returns.](images/numeric_predictions.png)
 
@@ -52,7 +52,7 @@ Still working at the end of your `classify_image` function, create a variable ca
 
 --- task ---
 
-Finally, use the `print_classifications` function provided in the notebook to display the predicitons the model has made.
+Finally, finish the `classify_image` function by adding the `print_classifications` function to the end of it. This function is already provided in the notebook and will display the classifications the model has made.
 
 ```python
   print_classifications(classifications)
@@ -62,10 +62,12 @@ Now run the code and see what your program predicts!
 
 --- /task ---
 
+--- save ---
+
 ![A numbered list of fifteen items, mostly dog breeds, each followed by a percentage. Number thirteen is different — 'tennis_ball 1.60%'. A picture of a small dog appears below the list.](images/finished_project.png)
 
-Number 1 is the guess the model thinks is most likely to be right, number 2 is its next best guess, and so on. You can see how the percentages associated with the classifications shrink as you move down the list. To see more of the classifications, and try to find the point where they hit 0%, change the value of `top` in your call to `decode_predictions` and re-run the program.
+Number 1 is the classifcation the model thinks is most likely to be right, number 2 is its next best classifcation, and so on. You can see how the percentages associated with the classifications shrink as you move down the list. To see more of the classifications, and try to find the point where they hit 0%, change the value of `top` where you call the `decode_predictions` function and re-run the program.
 
-Also, notice how most of the classifications are sensible — different kinds of dog.  However, look at number 13 — 'tennis ball' — that's a bit different! Why might the model think that's what it's seeing? It's probably because of the way models are trained: they're shown images to learn from, and then given other images to test their learning. The image you've asked it to identify here is a dog and some grass. Do you think it's likely some pictures of dogs might show them playing with balls? Or that pictures of balls might show them on grass? You can see how the classifier might get confused!
+#### A strange classification
 
---- save ---
+Notice how most of the classifications are sensible — different kinds of dog.  However, look at number 13 — 'tennis ball' — that's a bit different! Why might the model think that's what it's seeing? It's probably because of the way models are trained: they're shown images to learn from, and then given other images to test their learning. The image you've asked it to identify here is a dog and some grass. Do you think it's likely some pictures of dogs might show them playing with balls? Or that pictures of balls might show them on grass? You can see how the classifier might get confused!

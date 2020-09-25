@@ -1,4 +1,4 @@
-# Experiment with your program
+# Classify your own image
 Now that you have a working program to identify images, it's time to have some fun with it!
 
 You're going to try loading a few different images into the program to see what predictions it makes. You'll have to use images hosted on the internet. You can put an image online by using Google Drive to store the image.

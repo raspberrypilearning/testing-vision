@@ -10,7 +10,6 @@ steps:
   - title: Get started with Google Colab
   - title: Load your model and image
   - title: Use the model to predict an image
-  - title: Experiment with your program
-    challenge: true
+  - title: Classify your own image
   - title: What's next?
 
