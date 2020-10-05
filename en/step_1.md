@@ -34,7 +34,7 @@ title: What you will need
 
 + A computer
 + An internet connection
-+ A Google account
++ A Google account — if you don't have one, the next step will tell you how to get one
 
 --- /collapse ---
 

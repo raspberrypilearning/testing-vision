@@ -1,5 +1,5 @@
 ## Load your model and image
-The first thing you need to do is bring in the model you're going to use from the `tensorflow` library. If you remember from [the start of this project](1) the model is the set of rules the computer follows to complete a task — in this case a set of rules for deciding which object appears in an image. We call this decision classification, and we call each possible answer, in this case each type of object, a class. The model you'll be using is called VGG16. VGG16 is trained to recognise a wide variety of objects, and it's very quick to get into your program.
+The first thing you need to do is bring in the model you're going to use from the `tensorflow` library. The model is the set of rules the computer follows to complete a task — in this case a set of rules for deciding which object appears in an image. We call this decision classification, and we call each possible answer, in this case each type of object, a class. The model you'll be using is called VGG16. VGG16 is trained to recognise a wide variety of objects, and it's very quick to get into your program.
 
 --- task ---
 
@@ -11,7 +11,7 @@ model = tf.keras.applications.VGG16()
 
 --- /task ---
 
-Now that you have a model, you'll need to get an image for it to identify. A function, called `get_image_from_url`, has been provided for you to use as part of this. This function will fetch an image from a URL (a web address) and store it in your Google Drive. The functionl will then return the location of the stored iimage. You need to include `get_image_from_url` in a larger function which will prepare that image, give it to the model, and then take the model's classifications and print them out into the notebook. For now, you're just going to get the image, load it up, and make sure it looks like you expect it to.
+Now that you have a model, you'll need to get an image for it to identify. A function, called `get_image_from_url`, has been provided for you to use as part of this. You need to include `get_image_from_url` in a larger function which will get your model's **classifications** of the image and print them out into the notebook.
 
 --- task ---
 
