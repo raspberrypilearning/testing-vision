@@ -36,7 +36,7 @@ Check that you can run all the code in the notebook by going to the `Runtime` me
 
 --- /task ---
 
-You should see spinners appear in the code cells, and then see numbers appear in the square brackets to the side of the cells. These numbers indicate the oder in which the code was run. Don't worry about what they're doing — they don't really do anything without your code — this is just to make sure that you're able to run code in your notebook for when you'll need to later.
+You should see spinners appear in the code cells, and then see numbers appear in the square brackets to the side of the cells. These numbers indicate the order in which the code was run. This is to make sure that you're able to run code in your notebook for when you'll need to later.
 
 ![The number '1' in square brackets to the side of four lines of code which import libraries used in the project.](images/execution_order.png)
 
