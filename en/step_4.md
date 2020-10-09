@@ -1,7 +1,7 @@
 # Use the model to predict an image
 Now that you can load your model and an image, it's time to pass the image to the model and see what it thinks it's looking at.
 
-However, machine learning models can't actually understand images the way humans do — they need to see everything as numbers. In the case of an image, that means the amount of red, green, and blue light in every pxiel of the image. So before you can give the image to your model, you'll need to convert it into lists of numbers. Luckily, the TensorFlow and NumPy libraries can help with this.
+However, machine learning models can't actually understand images the way humans do — they need to see everything as numbers. In the case of an image, that means the amount of red, green, and blue light in every pixel of the image. So before you can give the image to your model, you'll need to convert it into lists of numbers. Luckily, the TensorFlow and NumPy libraries can help you.
 
 --- task ---
 
@@ -24,7 +24,7 @@ Next, you need to ask your model for a classification based on your image. This 
 
 Get your model's classification of the image and store it in a variable named `classification_result`. 
 
-Note that, as well as passing the model your image, you also have to tell it that it's only reciving one image, using the `batch_size` paramaeter. This is because you can ask the model to classify many images at once.
+Note that, as well as passing the model your image, you also have to tell it that it's only receiving one image, using the `batch_size` parameter. This is because you can ask the model to classify many images at once.
 
 Add this line to the end of the `classify_image` function:
 
