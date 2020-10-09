@@ -4,7 +4,7 @@
 
 'Machine learning' is when computer programs get better through experience instead of a programmer having to design and build improvements for them. The program tests a way of doing something, measuring its success somehow, and then changing its approach and tests again, over and over, always trying to improve that measurement of success.
 
-While there are lots of different types of machine learning, this project focuses on **image classifciation**: to take an image and recognise which class, of a number of 'classes' of image the computer has been taught to recognise, the supplied image is most likely to belong to.
+While there are lots of different types of machine learning, this project focuses on **image classification**: to take an image and recognise which class, of a number of 'classes' of image the computer has been taught to recognise, the supplied image is most likely to belong to.
 
 One of the most famous examples of this is asking a computer whether a picture contains a cat or a dog. The computer can do this because it has been shown thousands of examples of what cats and dogs look like. From these, it builds a **model** — a set of rules for how to decide that an image contains a dog or a cat. 
 
@@ -44,8 +44,8 @@ title: What you will learn
 ---
 
 + What machine learning is
-+ What a 'model' is, in the context of machine learning
-+ How the limitations of machine learning might impact your project
++ What a 'model' is (in the context of machine learning)
++ How the limitations of machine learning could impact your project
 
 --- /collapse ---
 
