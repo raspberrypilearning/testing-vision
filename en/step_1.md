@@ -11,7 +11,7 @@ One of the most famous examples of machine learning is to ask whether a picture 
 A weakness of image classification is that a program that has been trained only on cats and dogs *always* guesses that something is either a cat or a dog. Image classification programs don't have the ability to recognise things that were not part of their training, and they likewise can't decide whether an image contains none of the things they have been trained to recognise.
 
 ### What you will make
-You will create a Python function to test a computer's recognition of an object, then you will supply a photograph of that object and receieve the computer's guess about what it is. This will be a useful tool for you in future projects, so you can test the models you create, and get the results of others' models when using them as part of an application. You will use Google Colab — an online tool used to write and run machine learning programs — to create this project.
+You will create a Python function to test a computer's recognition of an object, then you will supply a photograph of that object and receive the computer's guess about what it is. This will be a useful tool for you in future projects, so you can test the models you create, and get the results of others' models when using them as part of an application. You will use Google Colab — an online tool used to write and run machine learning programs — to create this project.
 
 ![The complete projec: A numbered list of fifteen items, mostly dog breeds, each followed by a percentage. Number thirteen is different — 'tennis_ball 1.60%'. A picture of a small dog appears below the list.](images/finished_project.png)
 
