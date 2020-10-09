@@ -12,7 +12,7 @@ Go to [drive.google.com](https://drive.google.com/) and drag an image from your 
 
 --- task ---
 
-Once the image is in drive, right-click on it and choose 'Get shareable link'. 
+Once the image is in drive, right-click on it and choose **Get shareable link**. 
 
 ![The Google Drive 'Get link' dialogue.](images/get_shareable_link.png)
 
@@ -20,7 +20,7 @@ Once the image is in drive, right-click on it and choose 'Get shareable link'.
 
 --- task ---
 
-In the dialogue that opens, change who has permission to view the image from 'Restricted' to 'Anyone with the link'
+In the dialogue that opens, change who has permission to view the image from **Restricted** to **Anyone with the link**.
 
 ![The Google Drive 'Get link' dialogue, with the permissions menu open.](images/link_permissions.png)
 
@@ -60,6 +60,6 @@ https://drive.google.com/uc?export=download&id=1xunlhWWxA6e59gSL_gTo_CiZYBNqbMDy
 
 --- task ---
 
-Now paste the URL you have created as a parameter to the `predict_image` function call in your program, and see how your program classifies the imaage!
+Now paste the URL you have created as a parameter to the `predict_image` function call in your program, and see how your program classifies the image!
 
 --- /task ---
