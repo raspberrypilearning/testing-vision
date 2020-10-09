@@ -8,7 +8,7 @@ While there are lots of different types of machine learning, this project focuse
 
 One of the most famous examples of machine learning is to ask a computer whether a picture contains a cat or a dog. The computer can do this because it has been shown thousands of examples of what cats and dogs look like. From these, it builds a **model** — a set of rules for how to decide that an image contains a dog or a cat. 
 
-A weakness of image classification is that a program that has been trained only on cats and dogs *always* guesses that something is either a cat or a dog. Image classification programs don't have the ability to recognise things that were not part of their training, and they likewise can't decide that an image contains none of the things they have been trained to recognise.
+A weakness of image classification is that a program that has been trained only on cats and dogs *always* guesses that something is either a cat or a dog. Image classification programs don't have the ability to recognise things that were not part of their training, and they likewise can't decide whether an image contains none of the things they have been trained to recognise.
 
 ### What you will make
 You will create a Python function to test a computer's recognition of an object, then you will supply a photograph of that object and receieve the computer's guess about what it is. This will be a useful tool for you in future projects, so you can test the models you create, and get the results of others' models when using them as part of an application. You will use Google Colab — an online tool used to write and run machine learning programs — to create this project.
