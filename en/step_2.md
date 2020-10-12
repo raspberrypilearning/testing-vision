@@ -1,5 +1,5 @@
 ## Get started with Google Colab
-Machine learning needs a lot of data, and a lot of computer processing power. Most personal computers are too be slow to train a model, and most internet connections are too slow to download large enough amounts of data to train it with. So, for this project you're going to use Google Colab. It's an online tool to write and run machine learning code with the TensorFlow library, which is a collection of machine learning tools created by Google. This lets you use Google's much more powerful computers, and faster internet connection.
+Machine learning needs a lot of data, and a lot of computer processing power. Most personal computers are too slow to train a model, and most internet connections are too slow to download large enough amounts of data to train it with. So, for this project you're going to use Google Colab. It's an online tool to write and run machine learning code with the TensorFlow library, which is a collection of machine learning tools created by Google. This lets you use Google's much more powerful computers, and faster internet connection.
 
 --- task ---
 
