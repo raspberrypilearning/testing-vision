@@ -18,7 +18,7 @@ Open the [starter](https://colab.research.google.com/drive/12KHBw8tn3s9NkcXXUK2M
 
 This is your first Google Colab **notebook**. Notebooks allow you to store text, Python code, and the output of that code together. It can be helpful to keep notes to remind yourself of what your code does at different points, or to add notes for other people who may look at your work in future.
 
-This notebook already has some code and text in it, to take care of a few things you don't need to worry about just now (to load the image you want to identify, and take the outputs from the model you're using and display them in a human-readable way).
+This notebook already has some code and text in it to take care of a few things that you don't need to worry about just now (to load the image you want to identify, and take the outputs from the model you're using and display them in a human-readable way).
 
 --- task ---
 
