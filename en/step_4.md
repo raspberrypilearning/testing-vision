@@ -5,7 +5,7 @@ However, machine learning models can't actually understand images the way humans
 
 --- task ---
 
-Add code to the end of your `classify_image` function to use the TensorFlow library to convert the image to an array (which is very similar to a list) and then use NumPy to reshape that array to exactly what the model expects:
+Add code to the end of your `classify_image` function to use the TensorFlow library to convert the image to an array (which is very similar to a list). Then, use NumPy to reshape that array to exactly what the model expects:
 
 ```python
   image = tf.keras.preprocessing.image.img_to_array(image)
