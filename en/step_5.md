@@ -20,7 +20,7 @@ Once the image is in drive, right-click on it and choose **Get shareable link**.
 
 --- task ---
 
-In the dialogue that opens, change who has permission to view the image from **Restricted** to **Anyone with the link**.
+In the dialogue box that opens, change who has permission to view the image from **Restricted** to **Anyone with the link**.
 
 ![The Google Drive 'Get link' dialogue, with the permissions menu open.](images/link_permissions.png)
 
