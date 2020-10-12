@@ -28,7 +28,7 @@ Before you start to change anything, make sure you save the notebook to your dri
 
 --- /task ---
 
-The Python code and text in the notebook is broken up into **cells**. Each code cell can be run separately, while allowing variables and functions from one cell to be accessed from others. This can be very useful if you need to run a piece of code that takes a long time to run — like to train a machine learning model — but you don't need to re-run it every time you want to change code that uses the model. However, you're not going to need to do that in this project. You need to run all the cells, in order.
+The Python code and text in the notebook is broken up into **cells**. Each code cell can be run separately, while allowing variables and functions from one cell to be accessed from others. This can be very useful if you need to run a piece of code that takes a long time to run — like to train a machine learning model — but you don't need to re-run it every time you want to change code that uses the model. However, you're not going to need to do that in this project because you need to run all the cells, in order.
 
 --- task ---
 
