@@ -34,7 +34,7 @@ Add this line to the end of the `classify_image` function:
 
 --- /task ---
 
-If you print out the results the model has given back, you'll see that it's just lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes! The model is splitting a total of 100% across all of its classes, with the ones it thinks are better matches for your image getting large percentages and those it's less confident about getting little or nothing.
+If you print out the results the model has given back, you'll see that it's just a lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes! The model is splitting a total of 100% across all of its classes, with the ones it thinks are better matches for your image getting large percentages and those it's less confident about getting little or nothing.
 
 ![A small sample of the list of numbers the model returns.](images/numeric_predictions.png)
 
