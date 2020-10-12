@@ -44,7 +44,7 @@ Copy this ID.
 
 --- task ---
 
-Use the ID you have just copied to complete this URL, inserting it in place of `[IMAGE ID]`:
+Use the ID you have just copied to complete this URL, insert it in place of `[IMAGE ID]`:
 
 ```
 https://drive.google.com/uc?export=download&id=[IMAGE ID]
