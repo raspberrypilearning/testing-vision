@@ -15,7 +15,7 @@ Now that you have a model, you need an image for it to identify. A function, cal
 
 --- task ---
 
-In the second of the three empty code cells, create a function called `classify_image` that takes `image_url` as an parameter. Have it call `get_image_from_url`, passing the URL to it. Then have TensorFlow load the image and use Matplotlib to display it. 
+In the second of the three empty code cells, create a function called `classify_image` that takes `image_url` as a parameter. Have it call `get_image_from_url`, passing the URL to it. Then have TensorFlow load the image and use Matplotlib to display it. 
 ```python
 def classify_image(image_url):
   # Fetch the image from the URL
