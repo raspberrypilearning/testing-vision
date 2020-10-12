@@ -66,7 +66,7 @@ Now run the code and see what your program predicts!
 
 ![A numbered list of fifteen items, mostly dog breeds, each followed by a percentage. Number thirteen is different — 'tennis_ball 1.60%'. A picture of a small dog appears below the list.](images/finished_project.png)
 
-Number 1 is the classifcation the model thinks is most likely to be right, number 2 is its next best classifcation, and so on. You can see how the percentages associated with the classifications shrink as you move down the list. To see more of the classifications, and try to find the point where they hit 0%, change the value of `top` where you call the `decode_predictions` function and re-run the program.
+Number 1 is the classifcation the model thinks is most likely to be right, number 2 is its next best classifcation, and so on. You can see how the percentages associated with the classifications shrink as you move down the list. To see more of the classifications, and try to find the point where they hit 0%, change the value of `top` where you call the `decode_predictions` function and rerun the program.
 
 #### A strange classification
 
