@@ -2,9 +2,9 @@
 
 ### What is machine learning?
 
-'Machine learning' is when computer programs get better through experience instead of a programmer having to design and build improvements for them. The program tests a way of doing something, measuring its success somehow, and then changing its approach and tests again, over and over, always trying to improve that measurement of success.
+Machine learning means that a computer program improves through experience; it does not need a programmer to alter the program for it to improve. The computer tests a way to complete a task, measures its success, and then changes its approach and tests it again, and again. It always tries to improve on its measurement of success.
 
-While there are lots of different types of machine learning, this project focuses on **image classification**: an image is taken and the computer has to recognise which class, from a number of 'classes' of image the computer has been taught to recognise, the supplied image is most likely to belong to. 
+While there are lots of different types of machine learning, this project focuses on **image classification**: an image is taken and the computer has to recognise which class the supplied image is most likely to belong to (it chooses from a number of 'classes' of images the computer has been taught to recognise).  
 
 One of the most famous examples of machine learning is to ask whether a picture contains a cat or a dog. The computer can do this because it has been shown thousands of examples of what cats and dogs look like. From these, it builds a **model** — a set of rules for how to decide that an image contains a dog or a cat. 
 
