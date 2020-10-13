@@ -18,7 +18,7 @@ If you want to see what the image looks like to your model, try printing out all
 
 ![Lists of numbers in a Colab output cell.](images/numeric_image.png)
 
-Next, you need to ask your model for a classification based on your image. This uses the `predict` method of your model:
+Next, you need to ask your model for a classification based on your image. This uses the `predict` method of your model.
 
 --- task ---
 
