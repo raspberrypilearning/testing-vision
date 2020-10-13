@@ -42,7 +42,7 @@ Now, since you really only care about the few classifications that the model thi
 
 --- task ---
 
-Still working at the end of your `classify_image` function, create a variable called `classifications` and then use this rather long TensorFlow function to take `classification_result` and get the labels for the top 15 results.
+Still working at the end of your `classify_image` function, create a variable called `classifications`. Then use this rather long TensorFlow function to take `classification_result` and get the labels for the top 15 results.
 
 ```python
   classifications = tf.keras.applications.imagenet_utils.decode_predictions(classification_result, top=15)
