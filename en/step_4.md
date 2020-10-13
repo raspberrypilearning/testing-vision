@@ -34,7 +34,7 @@ Add this line to the end of the `classify_image` function:
 
 --- /task ---
 
-If you print out the results the model has given back, you'll see that it's just a lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes! The model is splitting a total of 100% across all of its classes, the ones it thinks are better matches for your image get large percentages, and those it's less confident about get little or nothing.
+If you print out the results the model has given back, you'll see that it's just a lot of numbers. This is a long list of how likely the model thinks the image is to belong to every class it has been trained to recognise. In the case of the VGG16 model you're using here, that's 1000 classes! The model is splitting a total of 100 percent across all of its classes, the ones it thinks are better matches for your image get large percentages, and those it's less confident about get little or nothing.
 
 ![A small sample of the list of numbers the model returns.](images/numeric_predictions.png)
 
@@ -66,8 +66,8 @@ Now run the code and see what your program predicts!
 
 ![A numbered list of fifteen items, mostly dog breeds, each followed by a percentage. Number thirteen is different — 'tennis_ball 1.60%'. A picture of a small dog appears below the list.](images/finished_project.png)
 
-Number 1 is the classifcation the model thinks is most likely to be right, number 2 is its next best classifcation, and so on. You can see how the percentages associated with the classifications shrink as you move down the list. To see more of the classifications, and try to find the point where they hit 0%, change the value of `top` where you call the `decode_predictions` function and rerun the program.
+Number 1 is the classification the model thinks is most likely to be right, number 2 is its next best classification, and so on. You can see how the percentages associated with the classifications shrink as you move down the list. To see more of the classifications, and try to find the point where they hit 0 percent, change the value of `top` where you call the `decode_predictions` function and rerun the program.
 
 #### A strange classification
 
-Notice how most of the classifications are sensible — different kinds of dog.  However, look at number 13 — 'tennis ball' — that's a bit different! Why might the model think that's what it's seeing? It's probably because of the way models are trained: they're shown images to learn from, and then given other images to test their learning. The image you've asked it to identify here is a dog and some grass. Do you think it's likely some pictures of dogs might show them playing with balls? Or that pictures of balls might show them on grass? You can see how the classifier might get confused!
+Notice how most of the classifications are sensible — different kinds of dog.  However, look at number 13 — 'tennis ball' — that's a bit different! Why might the model think that it sees a tennis ball? It's probably because of the way models are trained: they're shown images to learn from, and then given other images to test their learning. The image you've asked it to identify here is a dog and some grass. Do you think it's likely some pictures of dogs might show them playing with balls? Or that pictures of balls might show them on grass? You can see how the classifier might get confused!
