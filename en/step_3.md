@@ -46,7 +46,7 @@ predict_image('https://dojo.soy/predict-dog')
 title: About the photograph
 ---
 
-This is an almost-square photograph of a dog by Chris Barber, which you can see on the Wikipedia page about dogs. We're able to reuse it here because he shared it under the [Creative Commons 2.0 Attribution](https://creativecommons.org/licenses/by/2.0/) license. 
+This is an almost-square photograph of a dog by Chris Barber, which you can see on the Wikipedia page about dogs. We're able to reuse it because Chris shared it under the [Creative Commons 2.0 Attribution](https://creativecommons.org/licenses/by/2.0/) license. 
 
 Creative Commons Attribution licenses allow people to reuse others' work as long as they give credit, like we're doing right here. When you start producing your own art or code that you want to share online, you should think about how you want to license it too!
 
