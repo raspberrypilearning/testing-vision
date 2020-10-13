@@ -30,7 +30,7 @@ In the dialogue box that opens, change who has permission to view the image from
 
 There should now be a link highlighted in the dialogue box.
 
-![The Google Drive 'Get link' dialogue, showing that anyone with the link can access the file. The link to the file is highlighted.](images/link_updated.png)
+![The Google Drive 'Get link' dialogue, it shows that anyone with the link can access the file. The link to the file is highlighted.](images/link_updated.png)
 
 In this link, you can find the ID code for the file between `/d/` and `/view?usp=sharing`. It should look something like this:
 
