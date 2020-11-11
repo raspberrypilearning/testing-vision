@@ -11,5 +11,5 @@ steps:
   - title: Load your model and image
   - title: Use the model to predict an image
   - title: Classify your own image
-  - title: What's next?
+  - title: What next?
 
