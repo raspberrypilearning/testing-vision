@@ -36,7 +36,7 @@ Notice that, at the same time as you load the image, you tell TensorFlow to resi
 In the third empty cell, add a call to `classify_image` and pass it the URL to the test image.
 
 ```python
-predict_image('https://dojo.soy/predict-dog')
+classify_image('https://dojo.soy/predict-dog')
 ```
 
 --- /task ---

@@ -2,7 +2,7 @@ title: Testing your computer's vision
 hero_image: images/banner.png
 description: Learn how to use a Tensorflow image classifiaction model in Python to predict what appears in a picture.
 version: 4
-listed: false
+listed: true
 copyedit: false
 last_tested: "2020-06-12"
 steps:
